@@ -1,4 +1,4 @@
-Algoritmo Tour8
+ Algoritmo Tour8
 	Dimensionar matriz[10,10] 
 		// Poner puntos en todos los espacios
 		Para contFilas = 1 Hasta 10 con Paso 1 Hacer
@@ -24,6 +24,7 @@ Algoritmo Tour8
 		Definir filaU, columnaU Como Entero
 		
 		// defininos los rengos entre los que debe estar el numero a introducir
+		// definimos rangos de la fila
 		Repetir
 			Escribir "Introduce la fila: "
 			Leer filaU
@@ -32,6 +33,8 @@ Algoritmo Tour8
 			FinSi
 		Hasta Que filaU >= 1 Y filaU <= 10
 		
+		
+		// definimos rangos de la columna
 		Repetir
 			Escribir "Introduce la columna a consultar (1 a 10):"
 			Leer columnaU
@@ -42,10 +45,10 @@ Algoritmo Tour8
 		
 		
 		Si matriz[filaU, columnaU] == 'O' Entonces
-			Escribir "En la posición (", filaU, ",", columnaU, ") esta ocupado."
+			Escribir "En la posiciï¿½n (", filaU, ",", columnaU, ") esta ocupado."
 		Sino
-			Escribir "La posición (", filaU, ",", columnaU, ") está libre."
+			Escribir "La posiciï¿½n (", filaU, ",", columnaU, ") estï¿½ libre."
 	FinSi
 		
 FinAlgoritmo
-// ni imprimimos la matriz ya que en este enunciado no nos lo requiere
+// no imprimimos la matriz porque no lo requiere
