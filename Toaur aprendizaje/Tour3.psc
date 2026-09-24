@@ -1,5 +1,5 @@
 Algoritmo Tour3 
-	// diseño la matriz
+	// diseï¿½o la matriz
 	Dimensionar matriz[10,10]
 		Para contFilas=1 Hasta 10 Con Paso 1 Hacer
 			Para contColumnas=1  Hasta 10 Con Paso 1 Hacer
@@ -38,5 +38,4 @@ Algoritmo Tour3
 			escribir ""
 		FinPara
 		
-	
 FinAlgoritmo
