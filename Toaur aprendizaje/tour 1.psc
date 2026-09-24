@@ -28,5 +28,4 @@ Algoritmo tour1
 			escribir ""
 		FinPara
 		
-		
 FinAlgoritmo
