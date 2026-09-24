@@ -21,7 +21,6 @@ Algoritmo tour2
 			matriz(fila, columna) = 'M'
 		FinPara
 		
-		
 		//Imprimo la matriz
 		Para contFilas=1  Hasta 10 Con Paso 1 Hacer
 			Para contColumnas=1 Hasta 10 Con Paso 1 Hacer
