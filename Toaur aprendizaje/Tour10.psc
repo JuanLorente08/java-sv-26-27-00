@@ -1,6 +1,6 @@
 Algoritmo Tour10
 	Dimensionar matriz[8,8] 
-		// diseño de la matriz
+		// diseï¿½o de la matriz
 		Para contFilas = 1 Hasta 8 con Paso 1 Hacer
 			Para contColumnas=1  Hasta 8 Con Paso 1 Hacer
 				// contFilas=1
@@ -16,7 +16,7 @@ Algoritmo Tour10
 			Fin Para
 		Fin Para
 		
-		//  comoloco 10 elementos A sin repetición
+		//  comoloco 10 elementos A sin repeticiï¿½n
 		Para i = 1 Hasta 10 Con Paso 1 Hacer
 			Repetir
 				fila = Azar(8) + 1
@@ -34,7 +34,7 @@ Algoritmo Tour10
 			matriz[fila, columna] = 'R'
 		Fin Para
 		
-		// coloco 3 elementos B sin repetición
+		// coloco 3 elementos B sin repeticiï¿½n
 		Para i = 1 Hasta 3 Con Paso 1 Hacer
 			Repetir
 				fila = Azar(8) + 1
@@ -43,7 +43,7 @@ Algoritmo Tour10
 			matriz[fila, columna] = 'B'
 		Fin Para
 		
-		// --- EXTRA: DIBUJAR TABLERO PARA VERIFICACIÓN ---
+		// --- EXTRA: DIBUJAR TABLERO PARA VERIFICACIï¿½N ---
 		Escribir "=== TABLERO GENERADO ==="
 		Escribir "  1 2 3 4 5 6 7 8"
 		Para contFilas = 1 Hasta 8 Con Paso 1 Hacer
@@ -80,7 +80,7 @@ Algoritmo Tour10
 		Escribir "---------------------------------------------"
 		
 		// 6. ANALIZAR UNA FILA ELEGIDA
-		Escribir "Introduce el número de fila que deseas analizar (1 a 8): "
+		Escribir "Introduce el nï¿½mero de fila que deseas analizar (1 a 8): "
 		Leer filaElegida
 		
 		Si filaElegida >= 1 Y filaElegida <= 8 Entonces
@@ -99,16 +99,17 @@ Algoritmo Tour10
 				Fin Segun
 			Fin Para
 			
-			Escribir "Análisis de la fila ", filaElegida, ":"
+			Escribir "Anï¿½lisis de la fila ", filaElegida, ":"
 			Escribir " - Cantidad de A: ", cuentaA_Fila
 			Escribir " - Cantidad de R: ", cuentaR_Fila
 			Escribir " - Cantidad de B: ", cuentaB_Fila
 			Escribir " - Cantidad de Agua (~): ", cuentaAgua_Fila
 		Sino
-			Escribir "Fila no válida."
+			Escribir "Fila no vï¿½lida."
 		FinSi
-		Escribir "---------------------------------------------"
+		Escribir "--------------------------------------------"
 		
+
 		// 7. CONSULTAR UNA COORDENADA
 		Escribir "Consulta de coordenadas individuales:"
 		Escribir "Introduce la fila (1 a 8): "
@@ -117,11 +118,11 @@ Algoritmo Tour10
 		Leer consultaColumna
 		
 		Si consultaFila >= 1 Y consultaFila <= 8 Y consultaColumna >= 1 Y consultaColumna <= 8 Entonces
-			// CORRECCIÓN: Guardamos el valor en una variable primero
+			// CORRECCIï¿½N: Guardamos el valor en una variable primero
 			Definir elementoEncontrado Como Caracter
 			elementoEncontrado = matriz[consultaFila, consultaColumna]
 			
-			Escribir "En la posición [", consultaFila, ", ", consultaColumna, "] hay un elemento: ", elementoEncontrado
+			Escribir "En la posiciï¿½n [", consultaFila, ", ", consultaColumna, "] hay un elemento: ", elementoEncontrado
 		Sino
 			Escribir "Coordenadas fuera del tablero."
 		FinSi
