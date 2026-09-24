@@ -29,7 +29,6 @@ Algoritmo Tour6
 			escribir ""
 		FinPara
 		
-		
 		//calculo de las plazas que estan libres y ocupadas
 		espaciosL <- 0
 		Para contFilas = 1 Hasta 5 Con Paso 1 Hacer
@@ -48,6 +47,5 @@ Algoritmo Tour6
 		plazasO <- 40 - totalL
 		escribir "el numero de plazas ocupadas: "
 		escribir plazasO
-		
 		
 FinAlgoritmo
