@@ -40,6 +40,7 @@ Algoritmo tour7
 			Escribir "En la planta ", contFilas, " hay ", ocupadasp, " habitaciones ocupadas."
 		Fin Para
 		
+		// numero total de plazas ocupadas 
 		totalO <- 0
 		Para contFilas = 1 Hasta 6 Con Paso 1 Hacer
 			Para contColumnas = 1 Hasta 5 Con Paso 1 Hacer
