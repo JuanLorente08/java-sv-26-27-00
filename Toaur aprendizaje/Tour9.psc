@@ -12,6 +12,7 @@ Algoritmo Tour9
 		definir fila Como Entero
 		definir clolumna como entero 
 		
+		// establezco la variable aleatoria
 		para i=1 hasta 5 con paso 1 hacer 
 			repetir 
 				fila = Azar (8)+1
@@ -20,6 +21,7 @@ Algoritmo Tour9
 			matriz(fila, columna) = 'X'
 		FinPara
 		
+		// Juego en si de guerra de barcos
 		impactos = 0
 		Mientras impactos < 5 Hacer
 			Escribir "Introduce la fila del disparo: "
