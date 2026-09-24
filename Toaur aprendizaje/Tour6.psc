@@ -11,6 +11,7 @@ Algoritmo Tour6
 		
 		Definir fila Como Entero
 		definir columna como entero 
+		
 		// poner lgares aleatorios para los que estan ocupados
 		para i=1 hasta 15 con paso 1 hacer 
 			repetir 
@@ -19,6 +20,7 @@ Algoritmo Tour6
 			hasta que matriz(fila, columna) = 'L'
 			matriz(fila, columna) = 'O'
 		FinPara
+		
 		// imprimir la matriz
 		Para contFilas=1  Hasta 5 Con Paso 1 Hacer
 			Para contColumnas=1 Hasta 8 Con Paso 1 Hacer
@@ -26,6 +28,7 @@ Algoritmo Tour6
 			Fin Para
 			escribir ""
 		FinPara
+		
 		//calculo de las plazas que estan libres y ocupadas
 		espaciosL <- 0
 		Para contFilas = 1 Hasta 5 Con Paso 1 Hacer
@@ -36,9 +39,11 @@ Algoritmo Tour6
 			Fin Para
 		Fin Para
 		
+		// escribir numero de plazas libres
 		escribir "el numero de plazas libres: "
 		escribir totalL // de las plazas que estan libres 
 		
+		// numero de plazas ocupadas 
 		plazasO <- 40 - totalL
 		escribir "el numero de plazas ocupadas: "
 		escribir plazasO
