@@ -43,7 +43,7 @@ Algoritmo Tour10
 			matriz[fila, columna] = 'B'
 		Fin Para
 		
-		// --- EXTRA: DIBUJAR TABLERO PARA VERIFICACI?N ---
+		// dibujo del tablero  
 		Escribir "=== TABLERO GENERADO ==="
 		Escribir "  1 2 3 4 5 6 7 8"
 		Para contFilas = 1 Hasta 8 Con Paso 1 Hacer
@@ -56,7 +56,7 @@ Algoritmo Tour10
 		Escribir "========================"
 		Escribir ""
 		
-		// 5. RECUENTO TOTAL: Analizar y contar cada tipo en todo el tablero
+		// Analizar y contar cada tipo en todo el tablero
 		totalA = 0
 		totalR = 0
 		totalB = 0
@@ -79,7 +79,7 @@ Algoritmo Tour10
 		Escribir "-> Elementos B encontrados: ", totalB
 		Escribir "---------------------------------------------"
 		
-		// 6. ANALIZAR UNA FILA ELEGIDA
+		// analisis de la fila obtenida
 		Escribir "Introduce el n?mero de fila que deseas analizar (1 a 8): "
 		Leer filaElegida
 		
@@ -110,7 +110,7 @@ Algoritmo Tour10
 		Escribir "--------------------------------------------"
 		
 
-		// 7. CONSULTAR UNA COORDENADA
+		// consultamos la coordeanda 
 		Escribir "Consulta de coordenadas individuales:"
 		Escribir "Introduce la fila (1 a 8): "
 		Leer consultaFila
