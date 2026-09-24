@@ -48,5 +48,4 @@ Algoritmo Tour6
 		escribir "el numero de plazas ocupadas: "
 		escribir plazasO
 		
-		
 FinAlgoritmo
