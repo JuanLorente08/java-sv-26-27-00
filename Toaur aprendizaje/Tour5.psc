@@ -29,13 +29,14 @@ Algoritmo Tour5
 			escribir ""
 		FinPara
 		
-		//contar las H que hay y su ubicación
+		//contar las H que hay y su ubicaciï¿½n
 		Para contFilas = 1 Hasta 10 Con Paso 1 Hacer
 			Para contColumnas = 1 Hasta 10 Con Paso 1 Hacer
 				Si (matriz[contFilas, contColumnas] == 'H') Entonces
-					Escribir "Se encontró una H en la Fila: ", contFilas, "  Columna: ", contColumnas
+					Escribir "Se encontrï¿½ una H en la Fila: ", contFilas, "  Columna: ", contColumnas
 				Fin Si
 			Fin Para
 		FinPara
+		
 		
 FinAlgoritmo
